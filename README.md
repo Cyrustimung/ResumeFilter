@@ -66,7 +66,7 @@ Stage 4: Credibility (15% of final score)
 ## Project Structure
 
 ```
-├── backend/                    # Python scoring backend
+├── backend/                   
 │   ├── __main__.py
 │   ├── ranker.py
 │   ├── requirements.txt
@@ -136,7 +136,7 @@ The CLI shows live progress, a results table, and summary stats:
   ✓ Loaded 10,000 candidates
 
   Scoring 10,000 candidates (est. ~3s)...
-  [########################] 100% · 10,000/10,000 · 211s
+  [########################] 100% · 10,000/10,000 ·
 
   ✓ Top 100 ranked and saved to submission.csv
 ```
