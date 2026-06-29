@@ -1,0 +1,77 @@
+# Redrob Hackathon — Submission Metadata
+# Intelligent Candidate Ranking
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Circle"
+
+primary_contact:
+  name: "Cyraj Timung"
+  email: "cyrajtimung@gmail.com"
+  phone: "+91-9957769941"
+
+team_members:
+  - name: "Cyraj Timung"
+    email: "cyrajtimung@gmail.com"
+    role: "Developer"
+  - name: "Longbiram Bey"
+    email: "longbi06bey@gmail.com"
+    role: "Developer"
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/UPDATE_USERNAME/ResumeFilter"
+
+sandbox_link: "https://UPDATE_YOUR_SANDBOX_LINK"
+
+reproduce_command: "python -m backend --candidates ./datasets/candidates.jsonl --out ./submission.csv"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Windows 11 Local Machine"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.12"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "GitHub Copilot"
+
+ai_usage_summary: |
+  GitHub Copilot for architecture discussion,
+  debug issues, refactoring and readme.md creation.
+  All scoring logic is deterministic Python using
+  scikit-learn ,TF-IDF and rapidfuzz, No LLM is used at runtime.
+  No candidate data was processed by any external AI service during ranking.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  4-stage evidence-based scoring pipeline. 
+  - "Stage 1: Integrity Gate detects honeypots via timeline physics, skill inflation, and overlapping dates."
+  - "Stage 2 (65%): Technical Fit — TF-IDF semantic similarity to JD, career evidence extraction, fuzzy skill matching with 40+ aliases, skill-to-career cross-verification with trust scoring, role alignment for Senior AI Engineer." 
+  - "Stage 3 (20%): Hiring Feasibility — response rate, recency, notice period, location."
+  - "Stage 4 (15%): Credibility — GitHub, platform assessments, education, career velocity."
+  Key USP: skills without career proof get discounted; semantic matching catches vocabulary"
+  variation; fraud detection at scoring layer. Runtime: ~3s for 10K on CPU.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

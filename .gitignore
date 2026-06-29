@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+
+# NLTK data (downloaded at runtime)
+nltk_data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large dataset (too big for GitHub - judges have their own copy)
+datasets/candidates.jsonl
+
+# Temp files
+*.tmp
