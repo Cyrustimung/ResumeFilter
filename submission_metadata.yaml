@@ -21,9 +21,9 @@ team_members:
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/UPDATE_USERNAME/ResumeFilter"
+github_repo: "https://github.com/Cyrustimung/ResumeFilter"
 
-sandbox_link: "https://UPDATE_YOUR_SANDBOX_LINK"
+sandbox_link: "https://huggingface.co/spaces/Cyraj/CandidateRanker"
 
 reproduce_command: "python -m backend --candidates ./datasets/candidates.jsonl --out ./submission.csv"
 
