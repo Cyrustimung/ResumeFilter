@@ -18,7 +18,7 @@ python -m backend --candidates ./sample_candidates.json --out ./submission.csv
 python validate_submission.py ./submission.csv
 ```
 
-This scores 100,000 candidates and outputs a ranked top-100 CSV in ~3.5 minutes. No GPU, no network, no LLM APIs required.
+This scores 100,000 candidates and outputs a ranked top-100 CSV under ~5 minutes. No GPU, no network, no LLM APIs required.
 
 ## How It Works
 
