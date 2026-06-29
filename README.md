@@ -1,4 +1,4 @@
-# Intelligent Candidate Ranking Engine
+# Intelligent Candidate Ranking
 
 An evidence-based candidate ranking system that goes beyond keyword matching. Scores candidates by cross-verifying skill claims against career evidence, integrating behavioral signals, and applying semantic similarity — producing an explainable, ranked shortlist for any technical role.
 
