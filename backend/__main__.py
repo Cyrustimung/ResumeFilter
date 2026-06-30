@@ -10,7 +10,7 @@ from backend.config import SAMPLE_CANDIDATES_PATH
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Canditly - Intelligent Candidate Ranking Engine")
+    parser = argparse.ArgumentParser(description="Intelligent Candidate Ranking")
     parser.add_argument("--candidates", help="Path to candidates .json/.jsonl file")
     parser.add_argument("--out", default="./Team_Circle.csv", help="Output CSV path")
     parser.add_argument("--provided", action="store_true", help="Use bundled sample dataset")
@@ -19,7 +19,7 @@ def main():
 
     print()
     print("=" * 50)
-    print("  Canditly - Intelligent Candidate Ranking")
+    print("  Intelligent Candidate Ranking")
     print("  Team Circle | Redrob Hackathon 2026")
     print("=" * 50)
     print()
