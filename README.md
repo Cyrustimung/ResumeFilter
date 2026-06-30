@@ -128,9 +128,10 @@ python validate_submission.py ./submission.csv
 The CLI shows live progress, a results table, and summary stats:
 
 ```
-╔══════════════════════════════════════════════════════╗
-║    Intelligent Candidate Ranking Engine   ║
-╚══════════════════════════════════════════════════════╝
+==================================================
+  Intelligent Candidate Ranking
+  Team Circle | Redrob Hackathon 2026
+==================================================
 
   Loading candidates...
   ✓ Loaded 10,000 candidates
